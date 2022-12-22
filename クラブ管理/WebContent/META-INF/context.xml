@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+<Context>
+  <Resource
+      name="jdbc/jc21ps"
+      auth="Container"
+      type="javax.sql.DataSource"
+      driverClassName="com.mysql.jdbc.Driver"
+      url="jdbc:mysql://192.168.54.211:3306/r04jk3a01?serverTimezone=JST"
+      connectionProperties="autoReconnect=true;verifyServerCertificate=false;useSSL=false;requireSSL=false"
+      username="r04jk3a01"
+      password="r04jk3a01"
+      validationQuery="select 1"/>
+ </Context>
